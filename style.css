@@ -1,0 +1,136 @@
+body,html{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+.logo{ height: 40px;
+
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    box-shadow: -20px 10px 10px  rgb( 245, 247, 247 );
+    padding: 0 20px; 
+}
+.box1{
+    border:solid -20px 20px 40px ;
+    background-color:240, 242, 242 ;
+    
+}
+ul{
+    display: flex;
+}
+ul>li{
+    margin: 0;
+    list-style: none;
+    font-size: 12px;
+    margin-right: 15px;
+    color:black;
+}
+a,span{
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    
+}
+.left-header{
+    display: flex;
+    align-items: center;
+    
+}
+.right-header{
+    display: flex;
+    align-items: center;
+}
+.sign-up-button ,.start-button{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: black;
+    background-color:rgba(222, 227, 226 ) ;
+    padding: 0 20px;
+     height: 35px;
+}
+
+.start-button { margin-right: 20px;
+   color:rgb(237, 246, 252);
+  background-color:rgb( 133, 176, 230 );
+padding-top: 10px;}
+.sign-up-button{
+    padding-top:  3px;
+}
+.span{ display: inline;}
+
+.main{
+    height: calc(100%-60px-30px);
+    
+}
+.right-section{width: 50%;
+}
+.right-section img
+{ max-height: 500px;}
+.left-section{
+    margin-top: 50px;
+    
+    width: 60%;
+    
+    padding: 3px 100px;
+}
+.banner{display: flex;
+align-items: right;
+justify-content: space-between;
+height: 100%;}
+
+.banner-heading{
+    font-size: 65px;
+    line-height: 60px;
+    font-weight: 750;
+    margin: top 60px; 
+}
+.left-section  > p { margin: 30px 0;
+font-size: 15px;
+font-weight: 600;}
+
+ 
+footer {display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+font-weight: 500;
+padding: 0px 20px; 
+font-size: 14px;
+height: 12px;}
+
+.left-footer> a {padding-right: 10px;
+    margin-right: 5px;
+    font-weight: 500;
+    color: black;
+    font-size: 14px;
+}
+.right-footer> a{
+    padding-right: 20px;
+    color:black;
+}
+
+
+    .banner-button .span {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+   
+footer .a {margin:right 30px ;} 
+
+.fa-link :hover{color:rgba(55, 55, 138, 0.555)}
